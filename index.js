@@ -31,12 +31,9 @@ class Company {
 }
 
 let users = [];
-for( let i = 0; i < 100; i++ ) {
-    users.push( new User() );
-}
-
 let companies = [];
 for( let i = 0; i < 100; i++ ) {
+    users.push( new User() );
     companies.push( new Company() );
 }
 
